@@ -14,7 +14,7 @@
       "src": "frontend/package.json",
       "config": {
         "installCommand": "yum install -y git && export GIT_PYTHON_REFRESH=quiet",
-        "buildCommand": "echo 'Git installed'"
+        "buildCommand": "CI=false npm run build"
       }
     }
   ],
