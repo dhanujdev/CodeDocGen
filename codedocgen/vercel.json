@@ -13,7 +13,7 @@
       "use": "@vercel/static-build",
       "src": "frontend/package.json",
       "config": {
-        "installCommand": "# Force re-run by adding comment; yum install -y git && export GIT_PYTHON_REFRESH=quiet",
+        "installCommand": "# Force re-run by adding comment",
         "buildCommand": "npm run build"
       }
     }
